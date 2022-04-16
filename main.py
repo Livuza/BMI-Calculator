@@ -18,10 +18,9 @@ weight = input("Enter your weight in kg: ")
 
 # ----------------------------------------- #
 # WRITE YOUR CODE BELOW
-bmi_height = float(height)
-bmi_weight = float(weight)
-raw_bmi = bmi_weight/(bmi_height**2)
-bmi=round(raw_bmi)
+
+bmi = float(weight)/(float(height)**2)
+
 if bmi < 18.5:
     status = "underweight"
 if bmi <= 25:
@@ -32,4 +31,4 @@ elif bmi <=35:
     status = "obese"
 else:
     status = "clinically obese"
-print(f"Your BMI is {bmi}. Your status is {status}.")
+print(f"Your BMI is {bmi}, you are {status}.")
