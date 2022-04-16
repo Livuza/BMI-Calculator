@@ -31,4 +31,4 @@ elif bmi <=35:
     status = "obese"
 else:
     status = "clinically obese"
-print(f"Your BMI is {bmi}, you are {status}.")
+print(f"Your BMI is {bmi}, you are {status}")
